@@ -19,3 +19,8 @@ npm run dev
 yarn
 yarn dev
 ```
+
+### server.js について
+
+ここが express のエントリーポイントになります。
+`cotoha API` と `青空文庫API` は nextJS の middleware を読み込む前に行うこと。
